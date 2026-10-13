@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Seguridad: solo se permite cargar código, estilos, fuentes y mapas de fuentes de confianza -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | Complejo Educativo Ignacio Pacheco Castro</title>
+    <meta name="description" content="Sitio oficial del Complejo Educativo Ignacio Pacheco Castro (CEIPC), San Marcos, San Salvador. Bachillerato General y Técnico Vocacional.">
+    <meta name="theme-color" content="#13254F">
+    <link rel="icon" href="multimedia/logo.jpg">
+    <link rel="apple-touch-icon" href="multimedia/logo.jpg">
+
+    <!-- Vista previa al compartir en Facebook y WhatsApp.
+         Cuando el sitio tenga dominio, cambia las rutas por la dirección completa,
+         p. ej. https://www.ceipc.edu.sv/multimedia/compartir.jpg -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_SV">
+    <meta property="og:site_name" content="Complejo Educativo Ignacio Pacheco Castro">
+    <meta property="og:title" content="Complejo Educativo Ignacio Pacheco Castro">
+    <meta property="og:description" content="Bachillerato General y Técnico Vocacional en San Marcos, San Salvador. 79 años educando en la excelencia.">
+    <meta property="og:image" content="multimedia/compartir.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Escudo del CEIPC y estudiantes en el desfile del 15 de septiembre">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- ================= BARRA SUPERIOR ================= -->
+    <div class="topbar">
+        <div class="container topbar__inner">
+            <p class="topbar__notice">Admisiones abiertas<span class="topbar__more">: inscripción al curso nivelatorio</span></p>
+            <ul class="topbar__links">
+                <li><a href="tel:+50322521010">Tel. 2252-1010</a></li>
+                <li><a href="https://www.facebook.com/OficialCEIPC" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ce_ignaciopachecocastro/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================= ENCABEZADO ================= -->
+    <header class="header" id="mainHeader">
+        <div class="container header__inner">
+            <a href="#/" class="brand">
+                <img src="multimedia/logo.jpg" alt="Escudo del CEIPC" class="brand__logo" width="52" height="52">
+                <span class="brand__text">
+                    <span class="brand__name">Complejo Educativo<br>Ignacio Pacheco Castro</span>
+                    <span class="brand__place">San Marcos, San Salvador</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+                <span class="nav-toggle__bars" aria-hidden="true"></span>
+                <span class="sr-only">Menú</span>
+            </button>
+
+            <nav class="nav" id="navMenu" aria-label="Principal">
+                <ul class="nav__list">
+                    <li><a href="#/" class="nav__link" data-route="inicio">Inicio</a></li>
+                    <li><a href="#/especialidades" class="nav__link" data-route="especialidades">Especialidades</a></li>
+                    <li><a href="#/nosotros" class="nav__link" data-route="nosotros">Nosotros</a></li>
+                    <li><a href="#/galeria" class="nav__link" data-route="galeria">Galería</a></li>
+                    <li><a href="#/contacto" class="nav__link" data-route="contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sash" aria-hidden="true"></div>
+    </header>
+
+    <main id="contenido" tabindex="-1">
+
+        <noscript>
+            <p class="noscript">Activa JavaScript para navegar por todas las secciones del sitio.</p>
+        </noscript>
+
+        <!-- ================= VISTA: INICIO ================= -->
+        <section id="view-inicio" class="view" data-title="Inicio">
+
+            <div class="hero">
+                <div class="hero__slides" data-hero-slides>
+                    <img class="hero__img is-active" src="galeria/septiembre1.jpeg" alt="" fetchpriority="high" decoding="async">
+                    <img class="hero__img" data-src="imgs/diseno3.jpg" alt="" decoding="async">
+                    <img class="hero__img" data-src="galeria/danza1.jpeg" alt="" decoding="async">
+                    <img class="hero__img hero__img--tope" data-src="imgs/meca2.jpg" alt="" decoding="async">
+                    <img class="hero__img hero__img--arriba" data-src="imgs/salud5.jpg" alt="" decoding="async">
+                    <img class="hero__img" data-src="imgs/gastro1.jpg" alt="" decoding="async">
+                    <img class="hero__img" data-src="galeria/septiembre7.jpeg" alt="" decoding="async">
+                </div>
+                <div class="container hero__inner">
+                    <div class="hero__panel">
+                        <p class="hero__tag">Bachillerato General y Técnico Vocacional</p>
+                        <h1 class="hero__title" tabindex="-1">Complejo Educativo Ignacio Pacheco Castro</h1>
+                        <p class="hero__lead">Formando a la juventud con excelencia académica, valores e innovación técnica en San Marcos.</p>
+                        <div class="actions">
+                            <a class="btn btn--primary" href="#/especialidades">Ver especialidades</a>
+                            <a class="btn btn--outline-light" href="#/contacto">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__dots" data-hero-dots aria-label="Fotos de la portada"></div>
+            </div>
+
+            <section class="section" aria-labelledby="ofertaTitle">
+                <div class="container">
+                    <header class="section-head">
+                        <h2 id="ofertaTitle" class="section-title">Oferta académica</h2>
+                        <p class="section-lead">Selecciona una modalidad para conocer la información completa de cada especialidad.</p>
+                    </header>
+
+                    <div class="modalidades">
+                        <article class="modalidad">
+                            <!-- Foto de la modalidad: cuando tengan la foto grupal, guárdenla en imgs/oferta/ y quiten este comentario
+                            <figure class="media" data-initial="G">
+                                <img src="imgs/oferta/general.jpg" alt="Estudiantes de Arquitectura, Lenguas Modernas, Diseño Gráfico y Gastronomía" loading="lazy" decoding="async">
+                            </figure> -->
+                            <div class="modalidad__body">
+                                <h3>Bachillerato General</h3>
+                                <p>Formación académica con orientación en Arquitectura, Lenguas Modernas, Gastronomía y Diseño Gráfico.</p>
+                                <ul class="link-list" data-modalidad-list="general"></ul>
+                            </div>
+                        </article>
+
+                        <article class="modalidad">
+                            <!-- Foto de la modalidad: cuando tengan la foto grupal, guárdenla en imgs/oferta/ y quiten este comentario
+                            <figure class="media" data-initial="T">
+                                <img src="imgs/oferta/tecnico.jpg" alt="Estudiantes de Desarrollo de Software, Mecánica Automotriz, Salud y Servicios Turísticos" loading="lazy" decoding="async">
+                            </figure> -->
+                            <div class="modalidad__body">
+                                <h3>Bachillerato Técnico Vocacional</h3>
+                                <p>Formación vocacional en Desarrollo de Software, Mecánica Automotriz, Salud y Servicios Turísticos.</p>
+                                <ul class="link-list" data-modalidad-list="tecnico"></ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="admisiones" aria-labelledby="admisionesTitle">
+                <div class="container admisiones__inner">
+                    <div>
+                        <h2 id="admisionesTitle">Proceso de admisión vigente</h2>
+                        <p>Inscripción al curso nivelatorio. Comunícate con nosotros para conocer requisitos y fechas.</p>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn--light" href="tel:+50322521010">Llamar al 2252-1010</a>
+                        <a class="btn btn--outline-light" href="#/contacto">Ver ubicación</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ================= VISTA: CATÁLOGO ================= -->
+        <section id="view-especialidades" class="view" data-title="Especialidades" hidden>
+            <header class="page-banner">
+                <div class="container">
+                    <h1 tabindex="-1">Especialidades</h1>
+                    <p>Conoce nuestras opciones de Bachillerato General y Técnico Vocacional.</p>
+                </div>
+            </header>
+
+            <div class="container section">
+                <section class="catalog-group" aria-labelledby="grupoGeneral">
+                    <h2 id="grupoGeneral" class="section-title">Bachillerato General</h2>
+                    <ul class="catalog-info">
+                        <li><strong>Duración:</strong> 2 años</li>
+                    </ul>
+                    <div class="catalog" data-catalog="general"></div>
+                </section>
+
+                <section class="catalog-group" aria-labelledby="grupoTecnico">
+                    <h2 id="grupoTecnico" class="section-title">Bachillerato Técnico Vocacional</h2>
+                    <ul class="catalog-info">
+                        <li><strong>Duración:</strong> 3 años</li>
+                    </ul>
+                    <div class="catalog" data-catalog="tecnico"></div>
+                </section>
+
+                <!-- Preguntas frecuentes: reemplaza las respuestas con la información oficial -->
+                <section class="faq" aria-labelledby="faqTitle">
+                    <h2 id="faqTitle" class="section-title">Preguntas frecuentes</h2>
+                    <details class="faq__item" open>
+                        <summary>¿Qué requisitos necesito para inscribirme?</summary>
+                        <p>Respuesta por confirmar con la dirección (por ejemplo: certificado de noveno grado, partida de nacimiento y fotografías).</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>¿Cuál es el horario de clases?</summary>
+                        <p>Respuesta por confirmar con la dirección.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>¿Puedo cambiarme de especialidad?</summary>
+                        <p>Respuesta por confirmar con la dirección.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>¿Qué es el curso nivelatorio?</summary>
+                        <p>Respuesta por confirmar con la dirección.</p>
+                    </details>
+                </section>
+            </div>
+
+            <section class="admisiones" aria-labelledby="admisionesCatalogo">
+                <div class="container admisiones__inner">
+                    <div>
+                        <h2 id="admisionesCatalogo">¿Te interesa alguna especialidad?</h2>
+                        <p>Inscríbete al curso nivelatorio. Comunícate con nosotros para conocer requisitos y fechas.</p>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn--light" href="tel:+50322521010">Llamar al 2252-1010</a>
+                        <a class="btn btn--outline-light" href="#/contacto">Ver ubicación</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ================= VISTA: DETALLE (plantilla única) ================= -->
+        <section id="view-especialidad" class="view" data-title="Especialidad" hidden>
+            <header class="page-banner page-banner--compact">
+                <div class="container">
+                    <a class="back" href="#/especialidades">Volver al catálogo</a>
+                </div>
+            </header>
+            <div class="container section" id="detalle"></div>
+        </section>
+
+       <!-- ================== VISTA: NOSOTROS ================== -->
+<section id="view-nosotros" class="view" data-title="Nosotros" hidden>
+    <header class="page-banner">
+        <div class="container">
+            <h1 tabindex="-1">Nuestra institución</h1>
+            <p>Complejo Educativo Ignacio Pacheco Castro</p>
+        </div>
+    </header>
+
+    <div class="container section">
+        <div class="about">
+            <div class="about__text">
+                <h2 class="section-title">79 años educando en la excelencia</h2>
+                <p>Formamos integralmente a jóvenes comprometidos con el desarrollo técnico y social de El Salvador.</p>
+                <p>Desde San Marcos ofrecemos dos caminos de bachillerato: uno general, que prepara para los estudios superiores, y uno técnico vocacional, que brinda herramientas para incorporarse al trabajo.</p>
+            </div>
+
+            <figure class="about__crest">
+                <img src="multimedia/logo1.png" alt="Escudo oficial del CEIPC" loading="lazy">
+            </figure>
+        </div>
+
+        <div class="pillars">
+            <article class="pillar">
+                <h2 class="pillar__title">Misión</h2>
+                <p>Ser reconocidos como una institución educativa de calidad, por su alto desempeño académico, sentido creativo y humano; con compromiso social, contribuyendo a la formación básica de los futuros profesionales para responder positivamente a las necesidades de la sociedad actual.</p>
+            </article>
+            <article class="pillar">
+                <h2 class="pillar__title">Visión</h2>
+                <p>Somos una institución formadora de estudiantes integrales desde una dimensión curricular, humanista y creativa; a través del desarrollo de competencias, apoyados en procesos pedagógicos innovadores que cumplan con los desafíos de la actualidad para hacer de nuestros estudiantes personas comprometidas con Dios, su familia y la sociedad.</p>
+            </article>
+        </div>
+
+        <section class="instalaciones" aria-labelledby="instalacionesTitle">
+            <header class="section-head">
+                <h2 id="instalacionesTitle" class="section-title">Nuestras instalaciones</h2>
+                <p class="section-lead">Espacios donde nuestros estudiantes ponen en práctica lo que aprenden en cada especialidad.</p>
+            </header>
+            <div class="instalaciones__grid">
+            <figure class="instalacion">
+                <span class="media"><img src="imgs/meca1.jpg" alt="Taller de mecánica automotriz del CEIPC" loading="lazy" decoding="async"></span>
+                <figcaption>
+                    <strong>Taller de mecánica automotriz</strong>
+                    <span>Espacio de trabajo con vehículos reales para diagnóstico y reparación.</span>
+                </figcaption>
+            </figure>
+            <figure class="instalacion">
+                <span class="media"><img src="imgs/salud3.jpg" alt="Laboratorio de salud del CEIPC" loading="lazy" decoding="async"></span>
+                <figcaption>
+                    <strong>Laboratorio de salud</strong>
+                    <span>Área equipada para prácticas de primeros auxilios y atención clínica.</span>
+                </figcaption>
+            </figure>
+            <figure class="instalacion">
+                <span class="media"><img src="imgs/gastro1.jpg" alt="Cocina de gastronomía del CEIPC" loading="lazy" decoding="async"></span>
+                <figcaption>
+                    <strong>Cocina de gastronomía</strong>
+                    <span>Cocina para las prácticas de panadería, repostería y cocina nacional.</span>
+                </figcaption>
+            </figure>
+            </div>
+        </section>
+    </div>
+</section>
+
+        <!-- ================= VISTA: GALERÍA ================= -->
+        <section id="view-galeria" class="view" data-title="Galería" hidden>
+            <header class="page-banner">
+                <div class="container">
+                    <h1 tabindex="-1">Galería</h1>
+                    <p>Proyectos, bandas de paz, danzas folclóricas y la vida estudiantil del CEIPC.</p>
+                </div>
+            </header>
+
+            <div class="container section">
+                <nav class="filtros" id="galeriaFiltros" aria-label="Categorías de la galería"></nav>
+                <div id="galeriaContenido"></div>
+            </div>
+        </section>
+
+        <!-- ================= VISTA: CONTACTO ================= -->
+        <section id="view-contacto" class="view" data-title="Contacto" hidden>
+            <header class="page-banner">
+                <div class="container">
+                    <h1 tabindex="-1">Contáctanos</h1>
+                    <p>San Marcos, San Salvador</p>
+                </div>
+            </header>
+
+            <div class="container section">
+                <div class="contact">
+                    <div>
+                        <h2 class="section-title">Información institucional</h2>
+                        <dl class="contact-list">
+                            <div>
+                                <dt>Ubicación</dt>
+                                <dd>Final Pasaje Balboa, Colonia San Antonio 3, San Marcos, San Salvador</dd>
+                            </div>
+                            <div>
+                                <dt>Teléfono</dt>
+                                <dd><a href="tel:+50322521010">2252-1010</a></dd>
+                            </div>
+                            <div>
+                                <dt>Facebook oficial</dt>
+                                <dd><a href="https://www.facebook.com/OficialCEIPC" target="_blank" rel="noopener noreferrer">/OficialCEIPC</a></dd>
+                            </div>
+                            <div>
+                                <dt>Instagram oficial</dt>
+                                <dd><a href="https://www.instagram.com/ce_ignaciopachecocastro/" target="_blank" rel="noopener noreferrer">@ce_ignaciopachecocastro</a></dd>
+                            </div>
+                            <div>
+                                <dt>Horario de atención</dt>
+                                <dd class="por-confirmar">Por confirmar</dd>
+                            </div>
+                            <div>
+                                <dt>Correo institucional</dt>
+                                <dd class="por-confirmar">Por confirmar</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <div class="map">
+                        <iframe
+                            title="Mapa de ubicación del CEIPC"
+                            src="https://maps.google.com/maps?q=Complejo%20Educativo%20Ignacio%20Pacheco%20Castro%20San%20Marcos%20San%20Salvador&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= VISOR DE FOTOS (galería) ================= -->
+    <dialog class="lightbox" id="lightbox" aria-label="Foto ampliada">
+        <button class="lightbox__close" type="button" aria-label="Cerrar">
+            <span aria-hidden="true">×</span>
+        </button>
+        <figure class="lightbox__figure">
+            <img class="lightbox__img" alt="">
+            <figcaption class="lightbox__caption">
+                <span class="lightbox__title"></span>
+                <span class="lightbox__meta"></span>
+            </figcaption>
+        </figure>
+        <button class="lightbox__btn lightbox__btn--prev" type="button" aria-label="Foto anterior">
+            <span aria-hidden="true">‹</span>
+        </button>
+        <button class="lightbox__btn lightbox__btn--next" type="button" aria-label="Foto siguiente">
+            <span aria-hidden="true">›</span>
+        </button>
+    </dialog>
+
+    <a class="to-top" id="toTop" href="#contenido" aria-label="Volver arriba" hidden>
+        <span aria-hidden="true">↑</span>
+    </a>
+
+    <!-- ================= PIE DE PÁGINA ================= -->
+    <footer class="footer">
+        <div class="sash" aria-hidden="true"></div>
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <p class="footer__name">Complejo Educativo<br>Ignacio Pacheco Castro</p>
+                <p>Formando a la juventud con excelencia académica, valores e innovación técnica.</p>
+            </div>
+            <nav aria-labelledby="footerNav">
+                <h2 id="footerNav" class="footer__heading">Navegación</h2>
+                <ul class="footer__list">
+                    <li><a href="#/">Inicio</a></li>
+                    <li><a href="#/especialidades">Especialidades</a></li>
+                    <li><a href="#/nosotros">Nosotros</a></li>
+                    <li><a href="#/galeria">Galería</a></li>
+                    <li><a href="#/contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h2 class="footer__heading">Contacto</h2>
+                <ul class="footer__list">
+                    <li>Final Pasaje Balboa, Colonia San Antonio 3, San Marcos</li>
+                    <li><a href="tel:+50322521010">2252-1010</a></li>
+                    <li><a href="https://www.facebook.com/OficialCEIPC" target="_blank" rel="noopener noreferrer">facebook.com/OficialCEIPC</a></li>
+                    <li><a href="https://www.instagram.com/ce_ignaciopachecocastro/" target="_blank" rel="noopener noreferrer">instagram.com/ce_ignaciopachecocastro</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; 2026 Complejo Educativo Ignacio Pacheco Castro. Todos los derechos reservados.</p>
+            <p>Desarrollado por 1.° Desarrollo de Software "A" 2026</p>
+        </div>
+    </footer>
+
+</body>
+</html>
